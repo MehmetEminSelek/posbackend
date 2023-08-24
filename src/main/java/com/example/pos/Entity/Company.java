@@ -5,6 +5,8 @@ import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 
+import java.util.Set;
+
 @Entity
 @Table(name = "COMPANY")
 @Getter
@@ -41,4 +43,6 @@ public class Company {
 
     @Column(name = "KEP_ADDRESS", nullable = false)
     private String kepAddress;
+
+
 }
