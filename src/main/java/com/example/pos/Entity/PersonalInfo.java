@@ -50,4 +50,7 @@ public class PersonalInfo {
     @Column(name = "TITLE", nullable = false)
     private String title;
 
+    @Column(name = "IS_AUTHORIZED", nullable = false)
+    private Boolean isAuthorized;
+
 }
